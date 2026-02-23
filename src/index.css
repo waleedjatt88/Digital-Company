@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/postcss';
+
+@theme {
+  --color-primary: #004D2C;
+  --color-secondary: #2BD56A;
+  --bg-light: #E8F5EE;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-light);
+    color: #1A1A1A;
+  }
+}
