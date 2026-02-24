@@ -2,7 +2,8 @@ import React from 'react';
 import Navbar from './components/layout/Navbar';
 import Hero from './components/sections/Hero';
 import Features from './components/sections/Features';
-import About from './components/sections/About'; // <--- Import karein
+import About from './components/sections/About';
+import OurServices from './components/sections/OurServices';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <main>
         <Hero />
         <Features />
-        <About /> {/* <--- Yahan add kiya */}
+        <About />
+        <OurServices />
       </main>
     </div>
   );
