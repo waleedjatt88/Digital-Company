@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:watch": "nodemon --exec vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "dev:watch": "node init && nodemon --exec vite",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
